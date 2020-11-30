@@ -30,6 +30,19 @@ li.nav-item {
 @media (max-width: 576px) {
 	* {}
 
+a.nav-link {
+    padding: 0;
+    margin: 0;
+    text-align:center;
+     line-height:50px;
+}
+
+li.nav-item {
+    padding: 0;
+    margin: 0;
+    border-top:1px dashed #dad8d8
+}
+
 a.navbar-brand {
     display: block;
     padding: 15px;
