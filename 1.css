@@ -25,13 +25,13 @@ a.nuthire.btn.btn-primary {
 
 .tt img {
     border-radius: 50%;
-    margin-bottom: 50px;
+    margin-bottom: 38px;
 }
 
 .tt {
     position: relative;
     z-index: 2;
-    padding-top: 16%;
+    padding-top: 24%;
 }
 
 .khoitt1:before {content: "";position: absolute;top: 0;left: 0;background: #27ae60;height: 100%;width: 50%;z-index: 1;}
@@ -77,6 +77,15 @@ li.nav-item {
 
 @media (max-width: 576px) {
 	* {}
+
+.tt h2 {
+    font-size: 33px;
+}
+
+.tt img {
+    width: 52%;
+    margin-top: 63px;
+}
 
 a.nav-link {
     padding: 0;
