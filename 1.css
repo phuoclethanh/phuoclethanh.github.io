@@ -1,6 +1,40 @@
 *{margin: 0;padding: 0;}
 
-.khoitt1:before {content: "";position: absolute;top: 0;left: 0;background: #27ae6047;height: 100%;width: 50%;}
+a.nuthire.btn.btn-primary {
+    width: 180px;
+    background: black;
+    border: none;
+    border-radius: 0px;
+}
+
+.tt p {
+    color: #373a3c;
+    font-size: 16px;
+    line-height: 22px;
+    width: 50%;
+    margin: auto;
+    margin-bottom: 34px;
+}
+
+.tt h2 {
+    font-size: 40px;
+    text-transform: uppercase;
+    color: white;
+    margin-bottom: 22px;
+}
+
+.tt img {
+    border-radius: 50%;
+    margin-bottom: 50px;
+}
+
+.tt {
+    position: relative;
+    z-index: 2;
+    padding-top: 16%;
+}
+
+.khoitt1:before {content: "";position: absolute;top: 0;left: 0;background: #27ae60;height: 100%;width: 50%;z-index: 1;}
 
 body ,html {
     height: 100%;
