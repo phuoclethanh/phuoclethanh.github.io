@@ -1,4 +1,18 @@
 *{margin: 0;padding: 0;}
+
+.khoitt1:before {content: "";position: absolute;top: 0;left: 0;background: #27ae6047;height: 100%;width: 50%;}
+
+body ,html {
+    height: 100%;
+    width: 100%;
+}
+
+.khoitt1 {
+    height: 100%;
+    width: 100%;
+    background: #2ecc71;
+    position: relative;
+}
 nav.navbar.navbar-expand-lg.navbar-dark.bg-dark {
     margin:0;
     padding:0;
