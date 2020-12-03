@@ -1,5 +1,25 @@
 *{margin: 0;padding: 0;}
 
+.xuong:after {content: '';position: absolute;width: 3px;height: 8px;background: white;left: 50%;bottom: 67%;margin-left: -2px;}
+
+.xuong:hover {
+    bottom: 4%;
+}
+
+.xuong {
+    width: 40px;
+    height: 77px;
+    border: white solid 1px;
+    position: absolute;
+    left: 50%;
+    border-radius: 30px;
+    bottom: 2%;
+    margin-left: -20px;
+    z-index: 2;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
 .khoittnho {
     margin-bottom: 55px;
 }
