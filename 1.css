@@ -155,6 +155,11 @@ li.nav-item {
 @media (max-width: 576px) {
 	* {}
 
+.xuong {
+    left: 93%;
+    bottom: 1%;
+}
+
 h2.tieudecap2.text-sm-left.text-center {
     margin-top: 50px;
 }
