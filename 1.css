@@ -1,5 +1,13 @@
 *{margin: 0;padding: 0;}
 
+.thongtinlienhe {
+    font-family: segoe ui;
+    color: white;
+    background: #27ae60;
+    font-size: 14px;
+    padding-top: 18px;
+}
+
 .xuong:after {content: '';position: absolute;width: 3px;height: 8px;background: white;left: 50%;bottom: 67%;margin-left: -2px;}
 
 .xuong:hover {
