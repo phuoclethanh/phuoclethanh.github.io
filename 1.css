@@ -157,7 +157,8 @@ li.nav-item {
 
 .xuong {
     left: 93%;
-    bottom: 1%;
+    bottom: 0;
+    transform: scale(0.6);
 }
 
 h2.tieudecap2.text-sm-left.text-center {
