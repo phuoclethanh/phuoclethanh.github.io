@@ -1,9 +1,10 @@
 ﻿
  $(function(){
 
- 	 $('.sanpham .content ul').isotope({
+ 	$('.sanpham .content ul').isotope({
 	itemSelector: 'li'
 	}); 
+		
 
  	$('.sanpham .danhsach nav ul li a').click(function(event) {
  		var danhsach = $(this).data('class');
@@ -43,7 +44,8 @@
  		$('body, html').animate({scrollTop:$('#phanhoi').offset().top},2000);
  		return false;
  	});
- 	
+
+
 })  
 
  
