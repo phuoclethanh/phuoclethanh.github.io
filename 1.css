@@ -1,13 +1,5 @@
 *{margin: 0;padding: 0;}
 
-.thongtinlienhe {
-    font-family: segoe ui;
-    color: white;
-    background: #27ae60;
-    font-size: 14px;
-    padding-top: 18px;
-}
-
 .xuong:after {content: '';position: absolute;width: 3px;height: 8px;background: white;left: 50%;bottom: 67%;margin-left: -2px;}
 
 .xuong:hover {
@@ -105,7 +97,7 @@ a.nuthire.btn.btn-primary {
     margin-bottom: 38px;
 }
 
-.tt {
+.khoitt1 .tt {
     position: relative;
     z-index: 2;
     padding-top: 24%;
@@ -153,7 +145,7 @@ li.nav-item {
 }
 
 @media (max-width: 576px) {
-	* {}
+    * {}
 
 .xuong {
     left: 93%;

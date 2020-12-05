@@ -1,4 +1,9 @@
 ﻿ $(function(){
+ 	$('.gt').click(function(event) {
+ 		$('body, html').animate({scrollTop:$('#khoigt').offset().top},2000);
+ 		return false;
+ 	});
+
  	$('.xuong, .kn').click(function(event) {
  		$('body, html').animate({scrollTop:$('#khoiedu').offset().top},2000);
  		return false;
