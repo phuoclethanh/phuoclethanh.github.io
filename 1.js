@@ -1,6 +1,7 @@
-﻿ $(function(){
+﻿
+ $(function(){
 
- 	$('.sanpham .content ul').isotope({
+ 	 $('.sanpham .content ul').isotope({
 	itemSelector: 'li'
 	}); 
 
