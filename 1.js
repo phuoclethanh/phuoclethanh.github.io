@@ -12,6 +12,11 @@
  		$('body, html').animate({scrollTop:$('#khoisp').offset().top},2000);
  		return false;
  	});
+ 	$('.ttlh').click(function(event) {
+ 		$('body, html').animate({scrollTop:$('#khoittlienhe').offset().top},2000);
+ 		return false;
+ 	});
+ 	
  	$('.cm').click(function(event) {
  		$('body, html').animate({scrollTop:$('#phanhoi').offset().top},2000);
  		return false;
