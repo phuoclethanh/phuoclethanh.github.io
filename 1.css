@@ -209,3 +209,7 @@ a.navbar-brand {
     padding: 15px;
 }
 }
+
+.sanpham nav ul li a.dsactive {
+    font-weight:bold;
+}
