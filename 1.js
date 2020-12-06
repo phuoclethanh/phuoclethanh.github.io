@@ -1,6 +1,7 @@
 ﻿
- $(function(){
 
+ $(function(){
+ 	 
  	$('.sanpham .content ul').isotope({
 	itemSelector: 'li'
 	}); 
@@ -12,7 +13,7 @@
  		$(this).addClass('dsactive');
  		//xu ly sap xep va loc san pham
  		var danhsach = $(this).data('class');
- 		console.log(danhsach);
+ 		// console.log(danhsach);
 
  		if (danhsach == '.all') {
 		
@@ -59,5 +60,33 @@
  		return false;
  	});
 
-
+ 	 // vt = vi tri	
+ 	$(window).scroll(function(event) {
+ 		/* Act on the event */
+ 		var vtbody =	$('body, html').scrollTop()
+ 		console.log(vtbody);
+ 		if (vtbody < 962) {
+ 			$('.menutop nav ul li:nth-child(n)').removeClass('active');
+ 			$('.menutop nav ul li:nth-child(1)').addClass('active');
+ 		}
+ 		else if(vtbody < 1973) {
+ 			$('.menutop nav ul li:nth-child(n)').removeClass('active');
+ 			$('.menutop nav ul li:nth-child(2)').addClass('active');
+ 		}
+ 		else if(vtbody < 2428) {
+ 			$('.menutop nav ul li:nth-child(n)').removeClass('active');
+ 			$('.menutop nav ul li:nth-child(3)').addClass('active');
+ 		}
+ 		else if(vtbody < 2546) {
+ 			$('.menutop nav ul li:nth-child(n)').removeClass('active');
+ 			$('.menutop nav ul li:nth-child(4)').addClass('active');
+ 		}
+ 		else if(vtbody < 9999) {
+ 			$('.menutop nav ul li:nth-child(n)').removeClass('active');
+ 			$('.menutop nav ul li:nth-child(5)').addClass('active');
+ 		}
+ 	
+ 	
+ 	});
+ 	
 }) 
