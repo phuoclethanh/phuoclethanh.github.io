@@ -1,66 +1,208 @@
 <!DOCTYPE html>
-<html>
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Project3</title>
-    <link rel="stylesheet" href="Project3_Mobile.css">
-    <link rel="stylesheet" href="Project3_Tablet.css">
-    <link rel="stylesheet" href="Project3_Desktop.css">
+<html lang="en"><head>
+	<title> Le Thanh Phuoc </title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script src="js/jquery-1.12.4.js"></script>  
+	<script src="js/isotope.pkgd.min.js"></script>
+	<script type="text/javascript" src="vendor/bootstrap.js"></script>
+	<script type="text/javascript" src="1.js"></script>
+	<link rel="stylesheet" href="vendor/font-awesome.css">
+	<link rel="stylesheet" href="vendor/bootstrap.css">
+ 	<link rel="stylesheet" href="1.css">
+
 </head>
-<body>
-    <div id="menu">
-        <ul>
-            <li><a href="#">Brand</a></li>
-            <li><a href="#">Browse</a></li>
-            <li class="menu-d-t"><a href="#">Help</a></li>
-            <li class="menu-d-t"><a href="Login.html">Log In</a></li>   
-            <li class="menu-d-t"><a href="SignUp.html">Sign Up</a></li> 
-            <!-- mobile -->
-            <li class="menu-m"><a href="SignUp.html">Sign Up</a></li> 
-            <li class="menu-m"><a href="Login.html">Log In</a></li> 
-            <li class="menu-m"><a href="#">Help</a></li>     
-        </ul>
-    </div>
-    <div id="banner">
-        <img src="images/lodging.png" alt="banner-loding">
-        <h1>Find a place to say.</h1>
-        <p>Rent from people in over 34,000 cities and 192 countries.</p> 
-        <hr>  
-    </div>
-    <div id="main-content">
-        <h2>Neighborhood Guides</h2>
-        <p>Not sure where to stay? We've created neighborhood guides for cities all around the world.</p>
-        <div class="row img-table">
-            <div class="col col-4 col-s-6">
-                <img src="images/mexico-city.png" alt="mexico-city">
-                <img src="images/ny.png" alt="newyork">
-            </div>
-            <div class="col col-4 col-s-6">
-                <img src="images/tokyo.png" alt="tokyo">
-                <img src="images/paris.png" alt="paris">
-            </div> 
-            <div class="col col-4 col-s-6">
-                <img src="images/invite.png" alt="invite"> 
-            </div> 
-        </div>       
-    </div>
-    <div id="footer" class="row">
-        <div class="col col-4 col-s-12">
-            <h3>Travel</h3>
-            <p>From apartments and rooms to tree houses and boats: stay in unique spaces in 192 countries.</p>
-            <a href="#">See how to travel on Airbnb</a>
-        </div>
-        <div class="col col-4 col-s-12">
-            <h3>Host</h3>
-            <p>Renting out your unused space could pay your bills or fund your next vacation.</p>
-            <a href="#">Learn more about hosting</a>
-        </div>
-        <div class="col col-4 col-s-12">
-            <h3>Trust and Safety</h3>
-            <p>From Verified ID to our worldwide customer support team, we've got your back.</p>
-            <a href="#">Learn about trust a Airbnb</a>
-        </div>
-    </div>
+<body >
+
+	<div id="fb-root"></div>
+	<script async defer crossorigin="anonymous" src="https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v9.0&appId=819824321917570&autoLogAppEvents=1" nonce="s04LfRhy"></script>
+
+	<div class="menutop">
+		<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+		  <div class="container">
+		  <a class="navbar-brand" href="index.html"><img src="images/logo.PNG" alt="logo phuoclethanh"></a>
+		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+		    <span class="navbar-toggler-icon"></span>
+		  </button>
+		
+		  <div class="collapse navbar-collapse flex-grow-0" id="navbarSupportedContent"> <!--  flex-grow-0 -->
+		    <ul class="navbar-nav mr-auto">  <!-- mr-auto -->
+		      <li class="nav-item active">
+		        <a class="nav-link gt" href="#">Giới thiệu <span class="sr-only">(current)</span></a>
+		      </li>
+		      <li class="nav-item">
+		        <a class="nav-link kn" href="#">Kinh nghiệm</a>
+		      </li>
+		      <li class="nav-item">
+		        <a class="nav-link sp" href="#">Sản phẩm</a>
+		      </li>
+		    <li class="nav-item">
+		        <a class="nav-link ttlh" href="#">Thông tin liên hệ</a>
+		      </li>
+		         <li class="nav-item">
+		        <a class="nav-link cm" href="#">Comment</a>
+		      </li>
+		      
+		    </ul>
+		    <!-- <form class="form-inline my-2 my-lg-0">
+		      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+		      <button class="btn btn-outline-primary|secondary|success|danger|warning|info|light|dark my-2 my-sm-0" type="submit">Search</button>
+		    </form> -->
+		  </div>
+		</div> <!-- het container -->
+		</nav>
+	</div> <!-- het menutop -->
+	<div class="khoitt1" id="khoigt">
+		<div class="container text-center">
+			<div class="tt">
+				<img src="images/avatar.png" alt="avatar phuoclethanh">
+				<h2>Lê Thành Phước</h2>
+				<p>Xin chào! Đây là website cá nhân của tôi</p>
+				<a href="index.html" class="nuthire btn btn-primary">Hợp tác</a>
+			</div>
+			<div class="xuong"></div>
+		</div>
+		
+	</div> <!-- het khoitt1 -->
+	<div class="edu" id="khoiedu">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-12 tieudeto text-center">
+					<h1>Kinh nghiệm & Quá trình học</h1>
+				</div>
+			
+				<div class="col-sm-4 cot1_3">
+					<h2 class="tieudecap2 text-sm-right text-center">Quá trình <span class="dam">học</span></h2>
+				<!-- 	<div class="khoittnho text-sm-right text-center">
+						<h3 class="tieudecap3">Học mẫu giáo Chim sẻ</h3>
+						<span class="motaqt">
+							1999-2000 Aspernatur libero fuga, consequatur
+						</span>
+						<p>Amet, esse? Dicta ex voluptates nostrum pariatur perspiciatis adipisci expedita nihil debitis enim itaque, cumque fugit suscipit.</p>
+					</div> -->
+					<div class="khoittnho text-sm-right text-center">
+						<h3 class="tieudecap3">THPT Thị xã Quảng Trị</h3>
+						<span class="motaqt">
+							2010-2013 THPT Thị xã Quảng Trị
+						</span>
+						<p>THPT Thị xã Quảng Trị</p>
+					</div>
+					<div class="khoittnho text-sm-right text-center">
+						<h3 class="tieudecap3">IUH</h3>
+						<span class="motaqt">
+							2013-2017 Industrial University of Ho Chi Minh City (IUH)
+						</span>
+						<p>Electrical automatic control engineering</p>
+					</div>
+					
+				</div> <!-- het cot 4/1 -->
+
+				<div class="col-sm-4 cot2_3">
+					<img src="images/chandung.png" alt="" class="img-fluid">
+				</div> <!-- het cot 4/2 -->
+
+				<div class="col-sm-4 cot3_3">
+					<h2 class="tieudecap2 text-sm-left text-center">Quá trình <span class="dam">làm việc</span></h2>
+					<div class="khoittnho text-sm-left text-center">
+						<h3 class="tieudecap3">Thực tập tốt nghiệp</h3>
+						<span class="motaqt">
+							10/2016-12/2016: Công ty cơ điện xây dựng Duy An
+						</span>
+						<p>Đấu nối, lắp đặt thiết bị điện</p>
+					</div>
+					<div class="khoittnho text-sm-left text-center">
+						<h3 class="tieudecap3">Đồ án tốt nghiệp</h3>
+						<span class="motaqt">
+							07/2016 – 06/2017: Ứng dụng AC servo trong điều khiển máy CNC 2 trục
+						</span>
+						<p>Module điều khiển FX2N-20GM, AC servo MR J2S, Software FX-PCS-VPS/WIN E</p>
+					</div>
+					<div class="khoittnho text-sm-left text-center">
+						<h3 class="tieudecap3">Kỹ sư tự động hóa</h3>
+						<span class="motaqt">
+							08/2017 – 30/6/2020: Công ty TNHH MTV tự động hóa công nghiệp Nam Lan
+						</span>
+						<p>Lập trình PLC, SCADA, HMI</p>
+					</div>				
+
+				</div> <!-- het cot 4/3 -->
+				
+			</div>
+		</div>
+	</div> <!-- het edu -->
+
+	<div class="sanpham" id="khoisp">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-12 tieudeto text-center">
+					<h1>Sản phẩm</h1>
+					<br>
+					<i class="small">(Minh họa)</i>
+				</div>
+			
+				<div class="col-sm-12 danhsach text-center">
+						<nav>
+						<ul>
+							<li><a href="#" data-class=".all">all</a></li>
+							<li><a href="#" data-class=".nguoi">người</a></li>
+							<li><a href="#" data-class=".phongcanh">phong cảnh</a></li>
+							<li><a href="#" data-class=".nui">núi</a></li>
+							<li><a href="#" data-class=".dodung">đồ dùng</a></li>
+						</ul>
+						</nav>
+				</div> <!-- het danh sach -->
+				<div class="col-sm-12 content">
+					<ul>
+						<li class="nguoi"><a href="#"><img src="images/1.jpg" alt="thanhphuocle sanpham"></a></li>
+						<li class="phongcanh"><a href="#"><img src="images/2.jpg" alt="thanhphuocle sanpham"></a></li>
+						<li class="nui"><a href="#"><img src="images/3.jpg" alt="thanhphuocle sanpham"></a></li>
+						<li class="nguoi"><a href="#"><img src="images/4.jpg" alt="thanhphuocle sanpham"></a></li>
+						<li class="nguoi"><a href="#"><img src="images/5.jpg" alt="thanhphuocle sanpham"></a></li>
+						<li class="nui"><a href="#"><img src="images/6.jpg" alt="thanhphuocle sanpham"></a></li>
+						<li class="dodung"><a href="#"><img src="images/7.jpg" alt=""></a></li>
+						<li class="dodung"><a href="#"><img src="images/8.jpg" alt="thanhphuocle sanpham"></a></li>
+						<li class="nguoi"><a href="#"><img src="images/9.jpg" alt="thanhphuocle sanpham"></a></li>
+						<li class="nui"><a href="#"><img src="images/10.jpg" alt="thanhphuocle sanpham"></a></li>
+
+						
+					</ul>
+				</div>	<!-- het content -->
+			</div>	
+		</div>				
+				
+		
+	</div> <!-- het sp -->
+
+	<div class="thongtinlienhe" id="khoittlienhe">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-12 tieudeto text-center">
+					<h1 class="text-center">Thông tin liên hệ</h1>
+				</div>
+				<div class="col-sm-12 text-center tt">
+					<p>Điện thoại: (+84)981520599</p>
+					<p>Facebook: thanhphuoc.le.23</p>
+				</div>
+			</div>
+			
+			
+		</div>
+	</div>
+
+	<div class="phanhoi" id="phanhoi">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-sm-12 tieudeto">
+					<h1 class="text-center">
+						Phản hồi
+					</h1>
+				</div>	
+				<div class="col-sm-8 offset-2">
+					<div class="fb-comments" data-href="https://phuoclethanh.github.io/" data-numposts="5" data-width=""></div>
+				</div>
+				
+			</div>
+		</div>
+	</div> <!-- het phan hoi -->
 </body>
 </html>
