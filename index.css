@@ -1,0 +1,52 @@
+*{margin: 0;padding: 0;}
+@import url('https://fonts.googleapis.com/css2?family=Mea+Culpa&display=swap');
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+p{
+    color: gray;
+    line-height: 30px;
+    font-weight: 200;
+    text-indent: 20px;
+}
+h5 {
+    font-family: 'Italianno', cursive;
+}
+#menu a.navbar-brand{
+    width: 70px;
+}
+#menu img {
+    width: 100%;
+    border-radius: 50%;
+}
+#menu ul li {
+    text-transform: uppercase;
+    padding: 10px;
+}
+li.nav-item.active {
+    font-weight: bold;
+}
+#banner img {
+    width: 100%;
+}
+.posts p {
+    margin:10px;
+}
+footer .container {
+    color: gray;
+    background-color: #f7f7f7;
+}
+img {
+    width: 100%;
+}
+a.connect_link img {
+    position: absolute;
+    top: 18px;
+    width: 35px;
+}
+@media only screen and (max-width: 767px) {
+ul li {
+    text-align: center;
+    border-bottom: 1px dotted gray;
+}
+}
