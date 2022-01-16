@@ -19,7 +19,7 @@ footer {
 .logo {
     position: relative;
     top: 15px;
-    left: 50px;
+    /* left: 50px; */
     width: 50px;
     margin: 0px;
 }
